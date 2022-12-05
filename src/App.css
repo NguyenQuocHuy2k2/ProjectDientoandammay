@@ -1,0 +1,72 @@
+h1 {
+  font-size: 2em;
+}
+
+.sinhvien-title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.sinhvien-id {
+  font-size: .8em;
+  margin: 1em 0;
+}
+
+.sinhvien-edit-icon {
+  opacity: .7;
+  position: absolute;
+  right: 2.3rem;
+  top: .4rem;
+}
+
+.sinhvien-edit-icon:hover {
+  opacity: 1;
+}
+
+.navbar, .navbar-end, .navbar-menu, .navbar-start {
+  align-items: stretch !important;
+  display: flex !important;
+}
+
+.navbar-menu {
+  flex-grow: 1 !important;
+  flex-shrink: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+.navbar-item {
+  display: flex !important;
+}
+
+.navbar-end {
+  justify-content: flex-end !important;
+  margin-left: auto !important;
+}
+
+.features {
+  padding-bottom: 3em;
+}
+
+body {
+  visibility: visible !important;
+}
+.input{
+  width: 350px
+}
+.tile.is-4{
+  width: 80%
+}
+.button.is-medium{
+  margin-top:30px
+}
+.button.is-small
+{
+  margin-top: 20px;
+  font-size: 0.95rem;
+}
+.button.is-info{
+  height: 50px;
+  width: 80px
+}
+
