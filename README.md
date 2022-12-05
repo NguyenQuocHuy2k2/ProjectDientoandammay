@@ -1,7 +1,7 @@
 # Điện toán đám mây - Lớp 03CLC - Nhóm 10
 
 ### Tên đề tài
-Xây dựng ứng dụng quản lý thông tin sinh viên sử dụng dịch vụ serverless của AWS
+### Xây dựng ứng dụng quản lý thông tin sinh viên sử dụng dịch vụ serverless của AWS
 
 ### Thành viên nhóm
 - Đàm Vinh Quang - 20110548
@@ -23,6 +23,6 @@ Xây dựng ứng dụng quản lý thông tin sinh viên sử dụng dịch v�
 
 ### Bước 1: Cài đặt sẵn phần mềm GitBash
 ### Bước 2: Mở GitBash tại Desktop
-- `git clone https://github.com/NguyenQuocHuy2k2/ProjectDientoandammay`
+- #### `git clone https://github.com/NguyenQuocHuy2k2/ProjectDientoandammay`
 - Sau khi git, tại Desktop sẽ xuất hiện Folder ProjectDientoandammay
 
