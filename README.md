@@ -15,8 +15,8 @@
 - Xóa 1 sinh viên đã có trong database
 
 ### Công nghệ và ngôn ngữ
-- Front-end: html, css, bootstrap, js, reactjs
-- Back-end: nodejs
+- Front-end: HTML, Css, Bootstrap, JS, Reactjs
+- Back-end: Nodejs
 - Dịch vụ: DynamoDB, AWS Lambda, API Gateway
 
 ## Hướng dẫn cài đặt
