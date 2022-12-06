@@ -58,11 +58,11 @@
 - Các Function còn lại làm tương tự
 
 ### Bước 4: Tạo các API Gateway & cấu hình cho đồ án
+- #### `git clone https://github.com/NguyenQuocHuy2k2/ProjectDientoandammay`
 
-Linh youtube hướng dẫn tạo các API Gateway và cấu hình cho đồ án: 
+Link youtube hướng dẫn tạo các API Gateway và cấu hình cho đồ án: 
 
 ### Bước 5: Mở GitBash tại Desktop và tiến hành chạy
-- #### `git clone https://github.com/NguyenQuocHuy2k2/ProjectDientoandammay`
 - Sau khi git, tại Desktop sẽ xuất hiện Folder ProjectDientoandammay
 - #### `cd ProjectDientoandammay`
 - #### `npm i`
