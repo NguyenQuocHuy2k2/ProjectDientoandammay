@@ -60,7 +60,7 @@
 ### Bước 4: Tạo các API Gateway & cấu hình cho đồ án
 - #### `git clone https://github.com/NguyenQuocHuy2k2/ProjectDientoandammay`
 
-Link youtube hướng dẫn tạo các API Gateway và cấu hình cho đồ án: 
+Link youtube hướng dẫn tạo các API Gateway và cấu hình cho đồ án: https://youtu.be/fVNlcqoPM7Y 
 
 ### Bước 5: Mở GitBash tại Desktop và tiến hành chạy
 - Sau khi git, tại Desktop sẽ xuất hiện Folder ProjectDientoandammay
