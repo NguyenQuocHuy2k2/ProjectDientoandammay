@@ -30,7 +30,7 @@ export default class Sinhviens extends Component {
         <section className="section">
           <div className="container">
             <h1>Thông tin sinh viên</h1>
-            <p className="subtitle is-5">Thông tin sinh viên:</p>
+            <p className="subtitle is-5">Danh sách sinh viên:</p>
             <br />
             <div className="columns">
               <div className="column">

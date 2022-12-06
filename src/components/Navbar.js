@@ -16,7 +16,7 @@ export default class Navbar extends Component {
               Trang chủ
             </a>
             <a href="/sinhviens" className="navbar-item">
-              Thông tin sinh viên
+              Danh sách sinh viên
             </a>
             <a href="/admin" className="navbar-item">
               Quản lý sinh viên

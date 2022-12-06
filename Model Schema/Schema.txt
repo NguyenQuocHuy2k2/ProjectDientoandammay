@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "SinhVienInputModel",
+  "type": "object",
+  "properties": {
+      "mssv": {"type": "string"},
+      "sinhvienname": {"type": "string"},
+      "sinhvienaddress": {"type": "string"},
+      "sinhviensex": {"type": "string"},
+      "sinhvienphone": {"type": "string"},
+      "sinhvienmajors": {"type": "string"},
+      "sinhvienethnic": {"type": "string"},
+      "sinhviengroup": {"type": "string"},
+      "sinhvienaddress": {"type": "string"}
+  }
+}
