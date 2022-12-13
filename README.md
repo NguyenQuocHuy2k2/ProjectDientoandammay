@@ -70,38 +70,54 @@ Link youtube hướng dẫn tạo các API Gateway và cấu hình cho đồ án
 
 ### Bước 6: Deploy trên aws bằng ec2
 
-- Bước 1: Mở EC2 và tạo launch Instances
+- Bước 6.1: Mở EC2 và tạo launch Instances
 
 --> Chọn ubntu server 20.04
+
 <img src="https://user-images.githubusercontent.com/113155221/207244638-f56ad7d8-3907-451e-9ac1-091c4c22f3b5.png" alt="..." width="800" />
+
 --> Tiến hành tạo 1 key mới, tạo thư mục deployaws và lưu file vào một thư mục đó
+
 <img src="https://user-images.githubusercontent.com/113155221/207245306-4ef9ce5c-b5c3-4a14-8e41-e8b28b26a78d.png" alt="..." width="800" />
+
 --> Launch instance
 
-- Bước 2: 
+- Bước 6.2: 
 
 --> Chọn name: deployQLSinhVien -> chọn security-> chọn sg-05e994b43aafeb8f4
 
 <img src="https://user-images.githubusercontent.com/113155221/207250727-ccfb7795-77c0-4c67-a67f-abed719f7334.png" alt="..." width="800" />
+
 --> Chọn Edit inbound rules để thêm rule
+
 <img src="https://user-images.githubusercontent.com/113155221/207250756-d151ac48-b7bf-4c0a-ba4b-08ff950188df.png" alt="..." width="800" />
+
 --> Tạo thêm 3 rule
+
 https		     443	  Anywhere-IPv4
+
 http		      80	   Anywhere-IPv4
+
 custom TCP 	3000 	Anywhere-IPv4
+
 <img src="https://user-images.githubusercontent.com/113155221/207250807-e7f22643-792a-452e-b56a-563a58ada1eb.png" alt="..." width="800" />
+
 --> save rules để lưu
 
-Bước 3: 
+- Bước 6.3: 
 
 --> Instances / deployQLSinhVien / Connect
+
 <img src="https://user-images.githubusercontent.com/113155221/207250847-ca735e4f-3f55-4ebd-8dec-3dbb8fc64efd.png" alt="..." width="800" />
+
 --> Tiếp theo ta vô thư mục deployaws có chứa file key vừa nãy tạo bật gitbash gõ các lệnh
 
 + chmod 400 DeployQLSV.pem
 
 + ssh -i "DeployQLSV.pem" ubuntu@ec2-34-201-127-118.compute-1.amazonaws.com và gõ yes
++ 
 <img src="https://user-images.githubusercontent.com/113155221/207250932-2cb901ec-49c2-4205-bcf6-0d1d1f96b49a.png" alt="..." width="800" />
+
 --> Sau đó ta gõ các lệnh theo thứ tự
 
 + sudo apt install curl
