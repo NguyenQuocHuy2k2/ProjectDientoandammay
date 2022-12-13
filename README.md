@@ -68,4 +68,10 @@ Link youtube hướng dẫn tạo các API Gateway và cấu hình cho đồ án
 - #### `npm i`
 - #### `npm start`
 
+### Bước 6: Deploy trên aws bằng ec2
+- Bước 1. Mở EC2 và tạo launch Instances
+--> Chọn ubntu server 20.04
+<img src="https://user-images.githubusercontent.com/113155221/207244638-f56ad7d8-3907-451e-9ac1-091c4c22f3b5.png" alt="..." width="800" />
+--> Tiến hành tạo 1 key mới
+
 ## Cảm ơn thầy và các bạn đã theo dõi, chúc các bạn thành công
