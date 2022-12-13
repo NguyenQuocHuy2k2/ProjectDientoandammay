@@ -112,35 +112,35 @@ custom TCP 	3000 	Anywhere-IPv4
 
 --> Tiếp theo ta vô thư mục deployaws có chứa file key vừa nãy tạo bật gitbash gõ các lệnh
 
-+ chmod 400 DeployQLSV.pem
++ `chmod 400 DeployQLSV.pem`
 
-+ ssh -i "DeployQLSV.pem" ubuntu@ec2-34-201-127-118.compute-1.amazonaws.com và gõ yes
++ `ssh -i "DeployQLSV.pem" ubuntu@ec2-34-201-127-118.compute-1.amazonaws.com` và gõ yes
 + 
 <img src="https://user-images.githubusercontent.com/113155221/207250932-2cb901ec-49c2-4205-bcf6-0d1d1f96b49a.png" alt="..." width="800" />
 
 --> Sau đó ta gõ các lệnh theo thứ tự
 
-+ sudo apt install curl
++ `sudo apt install curl`
 
-+ curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
++ `curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash`
 
-+ source ~/.bashrc
++ `source ~/.bashrc`
 
-+ nvm install 14.21.1
++ `nvm install 14.21.1`
 
-+ nvm use 14.21.1
++ `nvm use 14.21.1`
 
-+ git clone https://github.com/NguyenQuocHuy2k2/ProjectDientoandammay.git
++ `git clone https://github.com/NguyenQuocHuy2k2/ProjectDientoandammay.git`
 
-+ cd ProjectDientoandammay
++ `cd ProjectDientoandammay`
 
-+ npm install
++ `npm install`
 
-+ npm install react-scripts --save
++ `npm install react-scripts --save`
 
-+ npm install
++ `npm install`
 
-+ npm start
++ `npm start`
 
 + sau khi chạy xong ta copy Public IPv4 address: 34.201.127.118 với port 3000
 
