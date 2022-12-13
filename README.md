@@ -146,4 +146,7 @@ custom TCP 	3000 	Anywhere-IPv4
 
 => đường dẫn là http://34.201.127.118:3000/
 
+<img src="https://user-images.githubusercontent.com/113155221/207253174-baee5aeb-31a1-4c26-b09d-60a1593a9e8a.png" alt="..." width="800" />
+
+
 ## Cảm ơn thầy và các bạn đã theo dõi, chúc các bạn thành công
