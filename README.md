@@ -134,6 +134,8 @@ custom TCP 	3000 	Anywhere-IPv4
 
 + cd ProjectDientoandammay
 
++ npm install
+
 + npm install react-scripts --save
 
 + npm install
