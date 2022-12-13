@@ -115,7 +115,7 @@ custom TCP 	3000 	Anywhere-IPv4
 + `chmod 400 DeployQLSV.pem`
 
 + `ssh -i "DeployQLSV.pem" ubuntu@ec2-34-201-127-118.compute-1.amazonaws.com` và gõ yes
-+ 
+
 <img src="https://user-images.githubusercontent.com/113155221/207250932-2cb901ec-49c2-4205-bcf6-0d1d1f96b49a.png" alt="..." width="800" />
 
 --> Sau đó ta gõ các lệnh theo thứ tự
