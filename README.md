@@ -68,6 +68,9 @@ Link youtube hướng dẫn tạo các API Gateway và cấu hình cho đồ án
 - #### `npm i`
 - #### `npm start`
 
+## Sau khi start xong đợi ứng dụng chạy trên localhost thành công
+
+## Deploy ứng dụng lên AWS
 ### Bước 6: Deploy trên aws bằng ec2
 
 - Bước 6.1: Mở EC2 và tạo launch Instances
