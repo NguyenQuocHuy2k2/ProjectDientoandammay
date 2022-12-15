@@ -17,7 +17,7 @@
 ### Công nghệ và ngôn ngữ
 - Front-end: HTML, Css, Bootstrap, JS, Reactjs
 - Back-end: Nodejs
-- Dịch vụ: DynamoDB, AWS Lambda, API Gateway
+- Dịch vụ: DynamoDB, AWS Lambda, API Gateway, Amazon EC2
 
 ## Hướng dẫn cài đặt
 
