@@ -142,7 +142,7 @@ custom TCP 	3000 	Anywhere-IPv4
 
 + `npm start`
 
-+ sau khi chạy xong ta copy Public IPv4 address: 34.201.127.118 với port 3000
++ sau khi chạy xong ta copy Public IPv4 address có dạng (ví dụ): 34.201.127.118 với port 3000
 
 => đường dẫn là http://34.201.127.118:3000/
 
